@@ -5,11 +5,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date "jeu. 02 avril 2015"
-Rev ""
-Comp ""
-Comment1 ""
+Title "Main and Top Circuit Boards "
+Date "2019-01-13"
+Rev "0"
+Comp "DualSense"
+Comment1 "Drawn By: Haseeb Syed"
 Comment2 ""
 Comment3 ""
 Comment4 ""
