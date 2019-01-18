@@ -288,7 +288,7 @@
   )
 
   (module Socket_Arduino_Nano:1pin_Nano locked (layer F.Cu) (tedit 5521156E) (tstamp 55211553)
-    (at 139.446 68.707)
+    (at 139.446 54.737)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (path /56D73ADD)
@@ -333,7 +333,7 @@
   )
 
   (module Socket_Arduino_Nano:1pin_Nano locked (layer F.Cu) (tedit 552115BD) (tstamp 55211562)
-    (at 154.686 68.707)
+    (at 154.686 54.737)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (path /56D73DD9)
@@ -365,9 +365,9 @@
   (gr_line (start 150.876 72.517) (end 150.876 67.437) (angle 90) (layer Dwgs.User) (width 0.15))
   (gr_line (start 143.256 72.517) (end 150.876 72.517) (angle 90) (layer Dwgs.User) (width 0.15))
   (gr_line (start 143.256 67.437) (end 143.256 72.517) (angle 90) (layer Dwgs.User) (width 0.15))
-  (gr_line (start 138.176 67.437) (end 138.176 110.617) (angle 90) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 155.956 67.437) (end 138.176 67.437) (angle 90) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 155.956 110.617) (end 155.956 67.437) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 138.43 53.34) (end 138.176 110.617) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 156.21 53.34) (end 138.43 53.34) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 155.956 110.617) (end 156.21 53.34) (angle 90) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 138.176 110.617) (end 155.956 110.617) (angle 90) (layer Edge.Cuts) (width 0.1))
 
 )
