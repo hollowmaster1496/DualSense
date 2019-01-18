@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MB1010-000
+D ULTRASONIC SENSOR LV-MAXSONAR-EZ
+K
+F https://www.maxbotix.com/documents/LV-MaxSonar-EZ_Datasheet.pdf
+$ENDCMP
+#
+#End Doc Library
