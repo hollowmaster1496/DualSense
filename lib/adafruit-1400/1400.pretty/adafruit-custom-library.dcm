@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SW_PWR_BTN
+D Adafruit Power Button Switch
+K 1400; adafruit
+$ENDCMP
+#
+#End Doc Library
