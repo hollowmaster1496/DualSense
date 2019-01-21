@@ -626,4 +626,43 @@ Wire Wire Line
 	9200 3850 8750 3850
 Text Label 8750 3850 0    50   ~ 0
 D2
+$Comp
+L Sensor_Temperature:TMP36xS U?
+U 1 1 5C45F43B
+P 1800 1800
+F 0 "U?" H 2341 1846 50  0000 L CNN
+F 1 "TMP36xS" H 2341 1755 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 1800 1350 50  0001 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/TMP35_36_37.pdf" H 1800 1800 50  0001 C CNN
+	1    1800 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 1800 3050 1800
+Wire Wire Line
+	1800 1400 1800 1250
+$Comp
+L power:+5V #PWR?
+U 1 1 5C462570
+P 1800 1250
+F 0 "#PWR?" H 1800 1100 50  0001 C CNN
+F 1 "+5V" V 1815 1423 28  0000 C CNN
+F 2 "" H 1800 1250 50  0001 C CNN
+F 3 "" H 1800 1250 50  0001 C CNN
+	1    1800 1250
+	1    0    0    -1  
+$EndComp
+Text Label 3050 1800 0    50   ~ 0
+A0
+$Comp
+L power:GND #PWR?
+U 1 1 5C466ADF
+P 1800 2200
+F 0 "#PWR?" H 1800 1950 50  0001 C CNN
+F 1 "GND" H 1805 2027 50  0000 C CNN
+F 2 "" H 1800 2200 50  0001 C CNN
+F 3 "" H 1800 2200 50  0001 C CNN
+	1    1800 2200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
