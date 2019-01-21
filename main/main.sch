@@ -265,131 +265,11 @@ Text Notes 5450 1700 0    60   ~ 0
 Wire Notes Line
 	4700 3800 500  3800
 Text Notes 650  3900 0    60   ~ 0
-Battery Interface - Top PCB
+Power Supply and User Interface
 Wire Notes Line
-	2125 4000 2125 3825
+	2225 4000 2225 3825
 Wire Notes Line
-	500  4000 2125 4000
-$Comp
-L Regulator_Linear:LM1117-5.0 U?
-U 1 1 5C3D2B92
-P 2350 4650
-F 0 "U?" H 2350 4892 50  0000 C CNN
-F 1 "LM1117-5.0" H 2350 4801 50  0000 C CNN
-F 2 "" H 2350 4650 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm1117.pdf" H 2350 4650 50  0001 C CNN
-	1    2350 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5C3D2BFB
-P 2350 5050
-F 0 "#PWR?" H 2350 4800 50  0001 C CNN
-F 1 "GND" H 2355 4877 50  0000 C CNN
-F 2 "" H 2350 5050 50  0001 C CNN
-F 3 "" H 2350 5050 50  0001 C CNN
-	1    2350 5050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	750  4650 750  4400
-Wire Wire Line
-	2650 4650 3100 4650
-$Comp
-L Device:C C?
-U 1 1 5C3D58C7
-P 3100 4900
-F 0 "C?" H 3215 4946 50  0000 L CNN
-F 1 "1 uF" H 3215 4855 50  0000 L CNN
-F 2 "" H 3138 4750 50  0001 C CNN
-F 3 "~" H 3100 4900 50  0001 C CNN
-	1    3100 4900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3100 4750 3100 4650
-$Comp
-L power:GND #PWR?
-U 1 1 5C3D63CF
-P 3100 5050
-F 0 "#PWR?" H 3100 4800 50  0001 C CNN
-F 1 "GND" H 3105 4877 50  0000 C CNN
-F 2 "" H 3100 5050 50  0001 C CNN
-F 3 "" H 3100 5050 50  0001 C CNN
-	1    3100 5050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2350 4950 2350 5050
-$Comp
-L power:+BATT #PWR?
-U 1 1 5C3D8471
-P 750 4400
-F 0 "#PWR?" H 750 4250 50  0001 C CNN
-F 1 "+BATT" H 765 4573 50  0000 C CNN
-F 2 "" H 750 4400 50  0001 C CNN
-F 3 "" H 750 4400 50  0001 C CNN
-	1    750  4400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5C3D9ADA
-P 3450 4650
-F 0 "R?" V 3243 4650 50  0000 C CNN
-F 1 "1K" V 3334 4650 50  0000 C CNN
-F 2 "" V 3380 4650 50  0001 C CNN
-F 3 "~" H 3450 4650 50  0001 C CNN
-	1    3450 4650
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3100 4650 3300 4650
-Connection ~ 3100 4650
-Wire Wire Line
-	3600 4650 3850 4650
-Wire Wire Line
-	3850 4650 3850 4750
-$Comp
-L Device:LED D?
-U 1 1 5C3DBD7B
-P 3850 4900
-F 0 "D?" V 3888 4783 50  0000 R CNN
-F 1 "PWR GREEN" V 3797 4783 50  0000 R CNN
-F 2 "" H 3850 4900 50  0001 C CNN
-F 3 "~" H 3850 4900 50  0001 C CNN
-	1    3850 4900
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5C3DC9DE
-P 3850 5050
-F 0 "#PWR?" H 3850 4800 50  0001 C CNN
-F 1 "GND" H 3855 4877 50  0000 C CNN
-F 2 "" H 3850 5050 50  0001 C CNN
-F 3 "" H 3850 5050 50  0001 C CNN
-	1    3850 5050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	750  4650 1250 4650
-Wire Wire Line
-	1650 4650 2050 4650
-$Comp
-L Switch:SW_SPST SW?
-U 1 1 5C3EA59D
-P 1450 4650
-F 0 "SW?" H 1450 4885 50  0000 C CNN
-F 1 "SW_SPST" H 1450 4794 50  0000 C CNN
-F 2 "" H 1450 4650 50  0001 C CNN
-F 3 "" H 1450 4650 50  0001 C CNN
-	1    1450 4650
-	1    0    0    -1  
-$EndComp
-Text Notes 2150 4275 0    60   ~ 0
-+5V REG
+	600  4000 2225 4000
 Wire Notes Line
 	4275 1250 5600 1250
 Text Notes 8400 650  0    60   ~ 0
@@ -665,4 +545,64 @@ F 3 "" H 1800 2200 50  0001 C CNN
 	1    1800 2200
 	1    0    0    -1  
 $EndComp
+$Comp
+L adafruit-custom-library:SW_PWR_BTN U?
+U 1 1 5C4549BC
+P 1600 4400
+F 0 "U?" H 2100 4575 50  0000 C CNN
+F 1 "SW_PWR_BTN" H 2100 4484 50  0000 C CNN
+F 2 "1400:1400-PWR-SW" H 2050 4350 50  0001 C CNN
+F 3 "" H 2050 4350 50  0001 C CNN
+	1    1600 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 4450 750  4450
+$Comp
+L power:GND #PWR?
+U 1 1 5C45E621
+P 3150 4950
+F 0 "#PWR?" H 3150 4700 50  0001 C CNN
+F 1 "GND" H 3155 4777 50  0000 C CNN
+F 2 "" H 3150 4950 50  0001 C CNN
+F 3 "" H 3150 4950 50  0001 C CNN
+	1    3150 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 4750 2900 4750
+Text Label 2900 4750 0    50   ~ 0
+A6
+Wire Wire Line
+	3150 4950 3150 4650
+Wire Wire Line
+	2700 4650 3150 4650
+Wire Wire Line
+	2700 4550 3150 4550
+Text Label 3150 4550 0    61   ~ 0
+Vin
+$Comp
+L Device:Battery BT?
+U 1 1 5C4802C8
+P 750 4700
+F 0 "BT?" H 858 4746 50  0000 L CNN
+F 1 "Battery" H 858 4655 50  0000 L CNN
+F 2 "Battery:BatteryHolder_Eagle_12BH611-GR" V 750 4760 50  0001 C CNN
+F 3 "~" V 750 4760 50  0001 C CNN
+	1    750  4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C480336
+P 750 4900
+F 0 "#PWR?" H 750 4650 50  0001 C CNN
+F 1 "GND" H 755 4727 50  0000 C CNN
+F 2 "" H 750 4900 50  0001 C CNN
+F 3 "" H 750 4900 50  0001 C CNN
+	1    750  4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	750  4450 750  4500
 $EndSCHEMATC
