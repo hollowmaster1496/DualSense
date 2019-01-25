@@ -262,10 +262,8 @@ Wire Notes Line
 	6450 1650 6450 1100
 Text Notes 5450 1700 0    60   ~ 0
 1
-Wire Notes Line
-	4700 3800 500  3800
 Text Notes 650  3900 0    60   ~ 0
-Power Supply and User Interface
+Power Supply Interface
 Wire Notes Line
 	2225 4000 2225 3825
 Wire Notes Line
@@ -395,8 +393,6 @@ Wire Notes Line
 Wire Notes Line
 	8325 3100 9750 3100
 Wire Notes Line
-	8300 2950 8300 5300
-Wire Notes Line
 	8300 5300 11200 5300
 $Comp
 L MB1010-000:MB1010-000 IC?
@@ -419,8 +415,6 @@ Wire Notes Line
 	2125 5650 2125 5475
 Wire Notes Line
 	500  5650 2125 5650
-Wire Notes Line
-	500  5450 4700 5450
 Wire Notes Line
 	500  7750 4700 7750
 Wire Notes Line
