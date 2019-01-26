@@ -1115,9 +1115,9 @@
   (gr_line (start 150.876 72.517) (end 150.876 67.437) (angle 90) (layer Dwgs.User) (width 0.15))
   (gr_line (start 143.256 72.517) (end 150.876 72.517) (angle 90) (layer Dwgs.User) (width 0.15))
   (gr_line (start 143.256 67.437) (end 143.256 72.517) (angle 90) (layer Dwgs.User) (width 0.15))
-  (gr_line (start 128.43 53.34) (end 128.176 110.617) (angle 90) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 196.21 53.34) (end 128.43 53.34) (angle 90) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 196.21 110.617) (end 196.21 53.34) (angle 90) (layer Edge.Cuts) (width 0.1) (tstamp 5C4BDE48))
-  (gr_line (start 128.176 110.617) (end 196.21 110.617) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 131.826 53.34) (end 131.826 110.617) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 163.068 53.34) (end 131.826 53.34) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 163.068 110.617) (end 163.068 53.34) (angle 90) (layer Edge.Cuts) (width 0.1) (tstamp 5C4BDE48))
+  (gr_line (start 131.826 110.617) (end 163.068 110.617) (angle 90) (layer Edge.Cuts) (width 0.1))
 
 )
