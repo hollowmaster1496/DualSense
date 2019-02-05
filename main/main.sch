@@ -462,7 +462,7 @@ F 3 "" H 1600 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 3050 1800 0    50   ~ 0
-A0
+A3
 $Comp
 L power:GND #PWR0105
 U 1 1 5C466ADF
@@ -607,7 +607,7 @@ U 1 1 5C4B9E27
 P 2000 6550
 F 0 "U3" H 2000 7217 50  0000 C CNN
 F 1 "LIS3DH" H 2000 7126 50  0000 C CNN
-F 2 "LIS3DH:PQFN50P300X300X100-16N" H 2000 6550 50  0001 L BNN
+F 2 "1400:SolderWirePad_1x04_P3.175mm_Drill0.8mm_LIS3DH_I2C" H 2000 6550 50  0001 L BNN
 F 3 "STMicroelectronics" H 2000 6550 50  0001 L BNN
 F 4 "MEMS digital output motion sensor ultra low-power high performance 3-axes nano accelerometer" H 2000 6550 50  0001 L BNN "Field4"
 F 5 "Unavailable" H 2000 6550 50  0001 L BNN "Field5"
@@ -615,17 +615,6 @@ F 6 "LGA-16 STMicroelectronics" H 2000 6550 50  0001 L BNN "Field6"
 F 7 "LIS3DH" H 2000 6550 50  0001 L BNN "Field7"
 F 8 "None" H 2000 6550 50  0001 L BNN "Field8"
 	1    2000 6550
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0112
-U 1 1 5C4BE6F4
-P 2800 6150
-F 0 "#PWR0112" H 2800 6000 50  0001 C CNN
-F 1 "+5V" V 2815 6323 28  0000 C CNN
-F 2 "" H 2800 6150 50  0001 C CNN
-F 3 "" H 2800 6150 50  0001 C CNN
-	1    2800 6150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -646,11 +635,11 @@ Wire Wire Line
 Wire Wire Line
 	1300 6150 1050 6150
 Text Label 1050 6150 0    50   ~ 0
-A5
+A1
 Wire Wire Line
 	1300 6250 1050 6250
 Text Label 1050 6250 0    50   ~ 0
-A4
+A0
 $Comp
 L Device:R R3
 U 1 1 5C4DBB82
@@ -723,8 +712,6 @@ Text Label 6100 2000 0    50   ~ 0
 5V
 Text Label 1600 1600 0    50   ~ 0
 5V
-Text Label 2800 6150 0    50   ~ 0
-5V
 $Comp
 L power:GND #PWR0106
 U 1 1 5C4D308D
@@ -757,4 +744,8 @@ F 3 "" H 3150 4350 50  0001 C CNN
 	1    2700 4400
 	1    0    0    -1  
 $EndComp
+Text Label 2800 6150 0    50   ~ 0
+3.3V
+Text Label 6250 3000 0    50   ~ 0
+3.3V
 $EndSCHEMATC
