@@ -364,7 +364,7 @@ Connection ~ 9900 1600
 Wire Wire Line
 	9900 1600 10550 1600
 Text Label 9150 1100 0    60   ~ 0
-A7
+A4
 Text Notes 600  650  0    60   ~ 0
 Temperature Control System
 Wire Notes Line
@@ -462,7 +462,7 @@ F 3 "" H 1600 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 3050 1800 0    50   ~ 0
-A3
+A6
 $Comp
 L power:GND #PWR0105
 U 1 1 5C466ADF
@@ -525,7 +525,7 @@ $EndComp
 Wire Wire Line
 	5650 4400 5650 4300
 Text Label 5650 4300 0    61   ~ 0
-A7
+A4
 $Comp
 L power:GND #PWR0110
 U 1 1 5C48DC84
@@ -726,7 +726,7 @@ $EndComp
 Wire Wire Line
 	2600 4750 2200 4750
 Text Label 2200 4750 0    50   ~ 0
-A6
+A5
 Wire Wire Line
 	2600 4550 1800 4550
 Text Label 1850 4550 2    60   ~ 0
