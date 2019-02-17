@@ -419,17 +419,6 @@ Wire Notes Line
 Wire Wire Line
 	10200 3750 10450 3750
 $Comp
-L power:+5V #PWR0102
-U 1 1 5C456819
-P 10450 3750
-F 0 "#PWR0102" H 10450 3600 50  0001 C CNN
-F 1 "+5V" V 10465 3923 28  0000 C CNN
-F 2 "" H 10450 3750 50  0001 C CNN
-F 3 "" H 10450 3750 50  0001 C CNN
-	1    10450 3750
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0103
 U 1 1 5C45A782
 P 10450 3850
@@ -707,7 +696,7 @@ Wire Wire Line
 Wire Wire Line
 	1600 1900 1600 1950
 Text Label 10350 3750 0    50   ~ 0
-5V
+3(**)
 Text Label 6100 2000 0    50   ~ 0
 5V
 Text Label 1600 1600 0    50   ~ 0
